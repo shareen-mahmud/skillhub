@@ -1,0 +1,18 @@
+/*===============================
+
+    DEFAULT VALUES:
+    
+    Font Family: Roboto Condensed
+    
+    Purple: #9381FF (Buttons, Icons, Links, Lines & Backgrounds)
+    Light Purple: #B8B8FF (Headings)
+    White: #F8F7FF (Paragraphs)
+    Cream: #FFEEDD (Text with black backgrounds)
+
+
+=================================*/
+
+body {
+    
+    font-family: "Roboto Condensed", sans-serif;
+}
