@@ -45,10 +45,6 @@ h3 {
 
     height: 100%;
     background-image: url("../img/bg-home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
 }
 
 #home-content-box {
@@ -69,29 +65,33 @@ h3 {
     font-size: 55px;
     font-weight: 700;
     margin: 20px 0 20px 0;
+    text-shadow: 2px 2px 4px #000000;
 
+}
+
+/*=====================================================
+        PARALLAX (Generic)
+======================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* parallax scrolling */
+    opacity: 0.9;
 }
 
 /*======================================================
         BUTTONS (Generic)
 =======================================================*/
 
-.btn-general{
+.btn-general {
     border-width: 2px;
     border-radius: 0;
     padding: 12px 26px 12px 26px;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    
-}
 
-.btn-red{
-    border-color: #9381FF;
-    color: #9381FF;
-    
-}
-
-.btn-red: hover, .btn-red: focus {
-    background-color: #dc3545;
 }
