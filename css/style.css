@@ -100,12 +100,15 @@ h3 {
         ANIMATE
 =====================================================*/
 
-#home-cover, #home-heading, #home-btn{
+#home-cover,
+#home-heading,
+#home-btn {
     animation-duration: .5s;
 }
+
 #home-cover {
     animation-delay: .1s;
-    
+
 }
 
 #home-heading {
@@ -114,5 +117,5 @@ h3 {
 
 #home-btn {
     animation-delay: 1s;
-   
+
 }
